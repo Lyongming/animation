@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+				.box {
+					width: 662px;
+					height:681px ;
+					background: url(img/jd.png) no-repeat center;
+					animation: jd 2s steps(3) infinite;
+				}
+				@keyframes jd{
+					from{
+						background-position: 0 0;
+					}
+					to{
+						background-position:0 -2045px;
+					}
+				}
+				.a1 {
+					height: 119px;
+					width: 73px;  /*总宽度除以帧数*/
+					background: url(img/hua.jpg) no-repeat center ;
+					animation: flower 2s steps(6) infinite;
+				}
+				@keyframes flower{
+					from{
+						background-position: 0 0;
+					}
+					to{
+						background-position:-438px 0;
+					}
+				}
+				.a2 {
+					height: 100px;
+					width: 100px;
+					background: url(img/loading.png) no-repeat;
+					animation: fly 1s steps(8) infinite;
+				}
+				@keyframes fly{
+					from{
+						background-position: 0 0;
+					}
+					to{
+						background-position:-800px 0;
+					}
+				}
+				.a3 {
+					height: 140px;
+					width: 140px;
+					background: url(img/renzhe.png) no-repeat center;
+					animation: hhh 2s steps(12) infinite;
+				}
+				@keyframes hhh{
+					from{
+						background-position: 0 0;
+					}
+					to{
+						background-position:-1680px 0;
+					}
+				}
+				.a4 {
+					height: 156px;
+					width: 157px;
+					background: url(img/run2.png) no-repeat;
+					animation: run 2s steps(10) infinite;
+				}
+				@keyframes run{
+					from{
+						background-position: 0 0;
+					}
+					to{
+						background-position: -1365px 0 ;
+						/* transform: translate(1400px); */
+					}
+				}
+				.a5 {
+					width: 160px;
+					height: 293px;
+					background: url(img/walk.jpg) no-repeat center;
+					animation: kkk 2s steps(6) infinite;
+				}
+				@keyframes kkk{
+					from{
+						background-position: 0 0;
+					}
+					to{
+						background-position:-1080px 0;
+					}
+				}
+		</style>
+	</head>
+	<body>
+		<div class="box"></div>
+		<div class="a1"></div>
+		<div class="a2"></div>
+		<div class="a3"></div>
+		<div class="a4"></div>
+		<div class="a5"></div>
+	</body>
+</html>
